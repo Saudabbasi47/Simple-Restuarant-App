@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <>
       <section className="flex justify-center items-center mt-14">
-        <ul className="flex space-x-6 justify-center items-center bg-white text-lg  py-2 px-5 rounded-xl">
+        <ul className="flex space-x-12 justify-center items-center bg-white text-lg  py-3 px-9 rounded-xl">
           <li className="border-purple-500 border-b-4 duration-200 border-opacity-0 hover:border-opacity-100">
             <button onClick={() => Filterdata("Breakfast")}>
               <p>BreakFast</p>

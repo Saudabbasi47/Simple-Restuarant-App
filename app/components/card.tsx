@@ -8,7 +8,7 @@ export default function Card(props:any){
     
     
     return<>
-    <section className=" w-[400px] bg-blue-00 p-4 bg-[#fcf3f3] border-2 rounded-md  border-[#6f00ff57]">
+    <section className=" w-[400px] bg-blue-00 p-4 bg-[#fcf3f3] border-2 rounded-2xl  border-[#f5f7ff4a]">
 <div className=""><p className="border-[3px] rounded-[100%] w-8  h-8 flex justify-center items-center text-gray-400 ">{props.id} </p> </div>
 <div className="text-gray-400">{props.cate} </div>
 <div className="text-[30px] font-bold ">{props.name} </div>
